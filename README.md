@@ -8,7 +8,7 @@ Dados sobre imagens do acervo [arquigrafia.org.br](https://www.arquigrafia.org.b
 
 Informação geral sobre imagens, no formato:
 
-```json
+```js
 {
   "images": {
     image_id: {
@@ -64,7 +64,7 @@ Onde:
 
 Descrições das imagens, geradas a partir de 4 modelos distintos (`blip`, `cpm`, `gpt` ou `vit`), no formato:
 
-```json
+```js
 {
   image_id: {
     "en": {
@@ -91,7 +91,7 @@ Onde:
 
 Descrições das imagens, geradas a partir do modelo `gpt` (`gpt-4o-2024-08-06`), no formato:
 
-```json
+```js
 {
   image_id: caption,
   image_id: caption,
