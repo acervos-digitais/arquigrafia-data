@@ -3,3 +3,4 @@
 *.pyc
 log.txt
 json/objects/*json
+json/captions/*json
