@@ -2,5 +2,5 @@
 .DS_Store
 *.pyc
 log.txt
-json/objects/*json
-json/captions/*json
+json/objects*/*json
+json/captions*/*json
